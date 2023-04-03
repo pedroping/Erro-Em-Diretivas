@@ -1,0 +1,13 @@
+<my-input [formControl]="name" myDirective #myDirective="myDirective"></my-input>
+<pre>
+{{myDirective.error}}
+</pre>
+<input [(ngModel)]="qqq" myDirective/>
+<pre>
+{{qqq}}
+</pre>
+<hr/>
+<form [formGroup]="form">
+  <my-input formControlName="control" myDirective></my-input>
+</form>
+{{form?.value|json}}
