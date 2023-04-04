@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { MyInputComponent } from './hello.component';
+import { MyInputComponent } from './myinput.component';
 import {MyDirective} from './my.directive'
 
 @NgModule({

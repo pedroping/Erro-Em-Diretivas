@@ -7,7 +7,9 @@
 {{qqq}}
 </pre>
 <hr/>
+
 <form [formGroup]="form">
+  <my-input formControlName="control" myDirective></my-input>
   <my-input formControlName="control" myDirective></my-input>
 </form>
 {{form?.value|json}}
